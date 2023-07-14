@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lavender;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 500px;
+}
+
+.search-term {
+    width: 100%;
+    font-size: 20px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin: 20px 0;
+}
+
+.search-results {
+    list-style: decimal;
+    font-size: 20px;
+}

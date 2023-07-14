@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Search Function for Array of Objects</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>Search Items</h2>
+      <input
+        type="text"
+        id="search-term"
+        class="search-term"
+        placeholder="Search ..."
+        oninput="searchItems()"
+      />
+      <h2>Search Results</h2>
+      <ul id="search-results" class="search-results"></ul>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
